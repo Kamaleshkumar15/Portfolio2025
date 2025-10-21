@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { FaDownload, FaEnvelope } from "react-icons/fa";
 import { personalInfo } from "../data/data";
+import img1 from "../image/prof.jpg";
 
 const Hero = () => {
   return (
@@ -65,7 +66,7 @@ const Hero = () => {
                 className="absolute inset-0 rounded-full bg-gradient-to-r from-royal-violet to-transparent opacity-30 blur-xl"
               />
               <img
-                src="./src/image/prof.jpg"
+                src={img1}
                 alt="Profile"
                 className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-royal-violet shadow-2xl relative z-10"
               />
